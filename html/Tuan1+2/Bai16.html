@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai16</title>
+</head>
+
+<body>
+    <h1>Travel Reservation Form</h1>
+    <h3>*denotes mandotory</h3>
+
+    <table>
+        <tr>
+            <td><label for="fullname">Full name*:</label></td>
+            <td>
+                <input type="text" name="fullname" id="fullname" size="20">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="Email">Email Address*:</label></td>
+            <td>
+                <input type="text" name="email" id="Email" size="20" tabindex="1" maxlength="250">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="selectTour">Select Tour Package*:</label></td>
+            <td>
+                <select name="selecttour" id="selectTour">
+                    <option>USA</option>
+                    <option>France</option>
+                    <option>Viet Nam</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="arrdate">Arrival Date*:</label></td>
+            <td>
+                <input type="date" name="date" id="arrdate">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="numberperson">Number of persons*:</label></td>
+            <td>
+                <input type="text" name="number" id="numberperson">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="choice">What would you want to avil*:</label></td>
+            <td>
+                <input type="checkbox" name="choice" id="choice">Boarding
+                <input type="checkbox" name="choice" id="choice">Fooding
+                <input type="checkbox" name="choice" id="choice">Sight seeing
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="discount">Discount Coupon code:</label></td>
+            <td>
+                <input type="text" name="discount" id="discount">
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="term">Terms and Conditions*:</label></td>
+            <td>
+                <input type="radio" name="term" id="term">I agree
+                <input type="radio" name="term" id="term">I disagree
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="submit"></label></td>
+            <td>
+                <input type="submit" name="submit" id="submit" value="Complete reservasion">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
